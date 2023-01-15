@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "cross:custom/swordaiven",
   "textures": {
-    "layer0": "cross:items/111"
+    "missing": "cross:blocks/oak_planks",
+    "particle": "cross:items/111"
   }
 }

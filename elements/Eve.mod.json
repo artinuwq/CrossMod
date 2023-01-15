@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "111",
-    "customModelName": "Normal",
+    "customModelName": "swordaiven:default",
     "name": "Eve",
     "specialInfo": [
       "1"
