@@ -1,9 +1,20 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Eve",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eve"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.cross.eve": "Eve"
+    }
   },
   "foldersRoot": {
     "name": "~",
