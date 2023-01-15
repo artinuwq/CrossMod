@@ -1,20 +1,18 @@
 {
   "mod_elements": [
     {
-      "name": "Eve",
-      "type": "tool",
-      "sortid": 2,
+      "name": "Yrwytb",
+      "type": "particle",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "eve"
+      "registry_name": "yrwytb"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.cross.eve": "Eve"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

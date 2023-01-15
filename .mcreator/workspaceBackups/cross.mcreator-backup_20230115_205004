@@ -1,6 +1,14 @@
 {
   "mod_elements": [
     {
+      "name": "Yrwytb",
+      "type": "particle",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yrwytb"
+    },
+    {
       "name": "Eve",
       "type": "tool",
       "sortid": 2,

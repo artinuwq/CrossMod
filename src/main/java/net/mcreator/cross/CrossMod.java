@@ -29,6 +29,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.cross.init.CrossModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,6 +47,8 @@ public class CrossMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		CrossModItems.REGISTRY.register(bus);
 
 	}
 
