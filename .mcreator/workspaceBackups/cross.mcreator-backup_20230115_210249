@@ -7,22 +7,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "eve"
-    },
-    {
-      "name": "Cross",
-      "type": "tab",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cross"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cross.eve": "Eve",
-      "itemGroup.tabcross": "Cross"
+      "item.cross.eve": "Eve"
     }
   },
   "foldersRoot": {
