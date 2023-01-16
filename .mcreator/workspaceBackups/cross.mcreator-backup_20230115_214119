@@ -1,18 +1,29 @@
 {
   "mod_elements": [
     {
-      "name": "Yrwytb",
-      "type": "particle",
-      "sortid": 1,
+      "name": "Eve",
+      "type": "tool",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "yrwytb"
+      "registry_name": "eve"
+    },
+    {
+      "name": "Cross",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.cross.eve": "Eve",
+      "itemGroup.tabcross": "Cross"
+    }
   },
   "foldersRoot": {
     "name": "~",
