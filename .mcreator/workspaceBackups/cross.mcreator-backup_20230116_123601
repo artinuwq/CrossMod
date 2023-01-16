@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Eve",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eve"
+    },
+    {
+      "name": "Cross",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cross"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cross.eve": "Eve",
+      "itemGroup.tabcross": "Cross"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cross",
+    "modName": "Cross",
+    "version": "1.0.0",
+    "author": "artin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.cross",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
