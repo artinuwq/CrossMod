@@ -1,7 +1,8 @@
 {
-  "parent": "cross:custom/swordaiven",
+  "parent": "cross:custom/swordaivenv2.0",
   "textures": {
-    "missing": "cross:blocks/oak_planks",
+    "0": "cross:blocks/swordaidenpng",
+    "1": "cross:blocks/white_concrete",
     "particle": "cross:items/111"
   }
 }
