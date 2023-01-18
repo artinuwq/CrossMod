@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "swordaidenpng",
+        "1": "white_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -9,7 +9,10 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.cross.procedures.EveToolInHandTickProcedure;
 
 import java.util.List;
 
@@ -46,5 +49,12 @@ public class EveItem extends SwordItem {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(Component.literal("1"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			EveToolInHandTickProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
 	}
 }
